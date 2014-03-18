@@ -1,6 +1,6 @@
 tell application "System Events"
-	keystroke "n" using {command down}
-	keystroke "j" using {command down}
+	keystroke "l" using {command down}
+	keystroke "c" using {command down}
 	set var to the clipboard
 	set the var to my replace_chars(var, "watch?v=", "embed/")
 	keystroke var
